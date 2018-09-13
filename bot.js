@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['389090790984515594'];
+const devs = ['280749272498962432'];
 const db = require('quick.db');
 const premium = ['470896018603376640']
 const client = new Discord.Client();
@@ -3600,4 +3600,4 @@ client.on('guildMemberAdd', member => {
 return channel.send("**`افضل موقع بيديك حسابات مجانا لكل الالعاب ال ممكن تتخيلها` \n [https://to.free-gg.com/2a7V6JS]**")
     }
     )});
-client.login("MzQ0MTI3MjQwOTM1NTcxNDU3.DnM-Rg.5AgJy3sbhDAUwnBLJcQzLxIeW0I")
+client.login(process.env.BOT_TOKEN)
